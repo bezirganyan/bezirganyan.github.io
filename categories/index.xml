@@ -2,31 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on bezirganyan</title>
-    <link>bezirganyan.github.io/categories/</link>
+    <link>https://bezirganyan.github.io/categories/</link>
     <description>Recent content in Categories on bezirganyan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="bezirganyan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bezirganyan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>bezirganyan.github.io/categories/</link>
+      <link>https://bezirganyan.github.io/categories/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>bezirganyan.github.io/categories/</guid>
+      <guid>https://bezirganyan.github.io/categories/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>bezirganyan.github.io/categories/hugo/</link>
+      <link>https://bezirganyan.github.io/categories/hugo/</link>
       <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>bezirganyan.github.io/categories/hugo/</guid>
+      <guid>https://bezirganyan.github.io/categories/hugo/</guid>
       <description></description>
+    </item>
+    
+  </channel>
+</rss>>
+      <title>Fancy App 3</title>
+      <link>https://bezirganyan.github.io/itemized/item3/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bezirganyan.github.io/itemized/item3/</guid>
+      <description> App 3 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 4</title>
+      <link>https://bezirganyan.github.io/itemized/item4/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bezirganyan.github.io/itemized/item4/</guid>
+      <description> App 4 </description>
     </item>
     
   </channel>
