@@ -1,0 +1,949 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Who said vim is not an IDE?</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.31.1" />
+        
+
+
+        
+            <meta name="author" content="bezirganyan">
+        
+        
+            <meta name="description" content="Preparing vim for IDE like experience">
+        
+
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Who said vim is not an IDE?"/>
+<meta name="twitter:description" content="Preparing vim for IDE like experience"/>
+
+        <meta property="og:title" content="Who said vim is not an IDE?" />
+<meta property="og:description" content="Preparing vim for IDE like experience" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="bezirganyan.github.io/blog/vim_ide/" />
+
+
+
+<meta property="article:published_time" content="2017-12-29T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-12-29T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Who said vim is not an IDE?">
+<meta itemprop="description" content="Preparing vim for IDE like experience">
+
+
+<meta itemprop="datePublished" content="2017-12-29T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-12-29T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="597">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/bezirganyan.github.io/css/main.css">
+            <link rel="stylesheet" href="/bezirganyan.github.io/css/add-on.css">
+        
+
+        
+            
+                
+            
+        
+
+      
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/bezirganyan.github.io/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="bezirganyan.github.io/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="bezirganyan.github.io/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="bezirganyan.github.io/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="bezirganyan.github.io">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="bezirganyan.github.io">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="bezirganyan.github.io/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="bezirganyan.github.io/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="bezirganyan.github.io/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="bezirganyan.github.io/blog/vim_ide/">Who said vim is not an IDE?</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-12-29'>
+                                    December 29, 2017</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="bezirganyan.github.io/blog/vim_ide/" class="image featured">
+            <img src="/bezirganyan.github.io/img//vim_main.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li>
+  <a href="//twitter.com/share?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&text=Who%20said%20vim%20is%20not%20an%20IDE%3f&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=bezirganyan.github.io%2fblog%2fvim_ide%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=bezirganyan.github.io%2fblog%2fvim_ide%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&title=Who%20said%20vim%20is%20not%20an%20IDE%3f" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&title=Who%20said%20vim%20is%20not%20an%20IDE%3f" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&title=Who%20said%20vim%20is%20not%20an%20IDE%3f" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&description=Who%20said%20vim%20is%20not%20an%20IDE%3f" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by bezirganyan&body=bezirganyan.github.io%2fblog%2fvim_ide%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="bezirganyan.github.io/blog/vim_ide/">Who said vim is not an IDE?</a></h1>
+            
+        
+        
+            <p>Preparing vim for IDE like experience</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-12-29'>
+            December 29, 2017</time>
+        <span class="author">bezirganyan</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+<li>
+  <a href="//twitter.com/share?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&text=Who%20said%20vim%20is%20not%20an%20IDE%3f&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=bezirganyan.github.io%2fblog%2fvim_ide%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=bezirganyan.github.io%2fblog%2fvim_ide%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&title=Who%20said%20vim%20is%20not%20an%20IDE%3f" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&title=Who%20said%20vim%20is%20not%20an%20IDE%3f" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&title=Who%20said%20vim%20is%20not%20an%20IDE%3f" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=bezirganyan.github.io%2fblog%2fvim_ide%2f&description=Who%20said%20vim%20is%20not%20an%20IDE%3f" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by bezirganyan&body=bezirganyan.github.io%2fblog%2fvim_ide%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="bezirganyan.github.io/blog/vim_ide/" class="image featured">
+            <img src="/bezirganyan.github.io/img/2017/12/vim_main.jpg" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<p>Every developer has a favorite text editor or an IDE, and as long as developers
+exist, Text Editor wars are not going anywhere. The two main forces of the so
+called &ldquo;Editor War&rdquo; are Vim and Emacs. They are both great and can do a lot,
+but&hellip; but they are not an IDE.</p>
+
+<p>I&rsquo;ve heard many developers, who are in love with vim or Emacs, but use IDEs like
+clion, CodeBlocks, VisualStudio, etc., because of certain features.</p>
+
+<p>But wait! What if I tell you that you can turn your vim or Emacs into an IDE?
+Yes, it will work, and in majority of cases it will work better and faster than
+your traditional IDE, at least for C/C++ it does.</p>
+
+<h2 id="configuring-vim-to-become-an-ide">Configuring vim to become an IDE</h2>
+
+<p>Well, the main basic features of an IDE are</p>
+
+<ul>
+<li>Code completion</li>
+<li>Error detection</li>
+<li>Debugging</li>
+</ul>
+
+<p>Of course there are many more features that IDEs have, and it is possible to
+configure vim to do most of them, but in this post I will only speak about
+these main three.</p>
+
+<p>So let&rsquo;s look at each feature and try to make it work in vim</p>
+
+<p><em>Note:</em> The configuration is for C/C++, but with light modifications and right
+plugins it is possible to make them work for your desired language.</p>
+
+<h3 id="code-completion">Code completion</h3>
+
+<p>Vim already has a built in code completion and all you have to do is type the
+starting letters and press <code>crtl + n</code>, and it will bring suggestions from your
+code. But that&rsquo;s not enough. All IDEs have smarter code completion, which will
+bring suggestions not only from the code you&rsquo;ve already written, but from the
+libraries you use.</p>
+
+<p>You can achieve such feature with a vim plugin called <a href="https://valloric.github.io/YouCompleteMe/"><strong>YouCompleteMe</strong></a>.</p>
+
+<p>All you have to do is install the plugin and configure for your desired language
+and libraries.</p>
+
+<p><img src="/img/2017/12/vim_code_completion.png" alt="Vim code completion" /></p>
+
+<h3 id="error-detection">Error Detection</h3>
+
+<p>One of the things I like in Vim when you <code>make</code> your code from it, in case of
+errors it brings the cursor on the line, where the first compile error occurred. However,
+the IDEs do a lot more than that. They detect the errors, right after you type
+them.</p>
+
+<p>For vim, the same functionality provides the
+<a href="https://valloric.github.io/YouCompleteMe/"><strong>YouCompleteMe</strong></a> plugin, discussed
+above. After typing, when you press the <code>Esc</code> key, in case of compile errors it
+will highlight the code parts causing the errors.</p>
+
+<p><img src="/img/2017/12/vim_error.png" alt="Vim error" /></p>
+
+<h3 id="debugging">Debugging</h3>
+
+<p>When I was just starting to use Vim, for debugging my programs I had to open
+another terminal, run <code>gdb</code>, type <code>ref</code> and try to use not so user friendly
+interface, without syntax highlighting. When writing command I couldn&rsquo;t even use
+my arrow keys. Well, that sucked.</p>
+
+<p>Then I discovered the <a href="https://github.com/vim-scripts/Conque-GDB"><strong>Conque-GDB</strong></a></p>
+
+<p>Conque-GDB is a vim script that integrated GDB into your vim. Cool right? What&rsquo;s
+more cool, is that it shows the breakpoints or segmentation fault location right
+on your code in vim. You can even use your arrow keys moving your cursor!</p>
+
+<p>I will be honest, I hated GDB even after using this plugin, until, one day,
+during a Programming Olympiad I had to use Visual Studio&rsquo;s debugger. Well I
+couldn&rsquo;t even find where my program threw a SegFault. So what I did (I don&rsquo;t
+even know if I had the right to do so) was to boot Linux from my USB and use
+Conque-GDB.</p>
+
+<p><img src="/img/2017/12/vim_gdb.png" alt="Vim gdb" /></p>
+
+<h3 id="other-plugins">Other plugins?</h3>
+
+<p>There is a very awesome website full of various vim plugins, called
+<a href="vimawesome.com"><strong>vimawesome.com</strong></a>. You can find many many more plugins there
+and make your vim much closer to an actual IDE.</p>
+
+<p>BTW this was my first blog post, so I am waiting for your positive criticism in
+the comment section.</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/hugo'>Hugo</a></li>
+    
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bezirganyan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/bezirganyan.github.io/' class="logo"><img src="/bezirganyan.github.io/img/main/logo.png" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>a developer&#39;s blog</h2>
+        <p>The true sign of intelligence is not knowledge but imagination ~Einstein</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          <li>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
+        
+        
+  <li><a href="//github.com/bezirganyan" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/bezirganyan" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/bezirganyan" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:grigor.bezirganyan98@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section id="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="bezirganyan.github.io/blog/vim_ide/">Who said vim is not an IDE?</a>
+              </h3>
+              
+              <time class="published" datetime='2017-12-29'>
+                December 29, 2017
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="bezirganyan.github.io/blog/vim_ide/" class="image featured">
+            <img src="/bezirganyan.github.io/date2017/12/vim_main.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                Uncategorized
+                <span style="float:right;">4</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/hugo/">Hugo</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h1>
+      <p>This is my personal blog. Here I will mostly write posts about Software Development, Programming and Technology. This blog is created with hugo framework. Theme: hugo future imperfect</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          <li>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
+        
+        
+  <li><a href="//github.com/bezirganyan" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/bezirganyan" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/bezirganyan" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:grigor.bezirganyan98@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2017
+        
+          bezirganyan
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/bezirganyan.github.io/js/util.js"></script>
+      <script src="/bezirganyan.github.io/js/main.js"></script>
+      <script src="/bezirganyan.github.io/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

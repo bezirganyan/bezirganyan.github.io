@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on bezirganyan</title>
+    <link>bezirganyan.github.io/blog/</link>
+    <description>Recent content in Blog on bezirganyan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="bezirganyan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Who said vim is not an IDE?</title>
+      <link>bezirganyan.github.io/blog/vim_ide/</link>
+      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>bezirganyan.github.io/blog/vim_ide/</guid>
+      <description>Every developer has a favorite text editor or an IDE, and as long as developers exist, Text Editor wars are not going anywhere. The two main forces of the so called &amp;ldquo;Editor War&amp;rdquo; are Vim and Emacs. They are both great and can do a lot, but&amp;hellip; but they are not an IDE.
+I&amp;rsquo;ve heard many developers, who are in love with vim or Emacs, but use IDEs like clion, CodeBlocks, VisualStudio, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
