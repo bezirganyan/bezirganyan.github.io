@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on bezirganyan</title>
+    <title>bezirganyan</title>
     <link>https://bezirganyan.github.io/categories/</link>
-    <description>Recent content in Categories on bezirganyan</description>
+    <description>Recent content on bezirganyan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
@@ -12,21 +12,39 @@
     
     
     <item>
-      <title></title>
-      <link>https://bezirganyan.github.io/categories/</link>
+      <title>Fancy App 1</title>
+      <link>https://bezirganyan.github.io/itemized/item1/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bezirganyan.github.io/categories/</guid>
-      <description></description>
+      <guid>https://bezirganyan.github.io/itemized/item1/</guid>
+      <description> App 1 </description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://bezirganyan.github.io/categories/hugo/</link>
-      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
+      <title>Fancy App 2</title>
+      <link>https://bezirganyan.github.io/itemized/item2/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bezirganyan.github.io/categories/hugo/</guid>
-      <description></description>
+      <guid>https://bezirganyan.github.io/itemized/item2/</guid>
+      <description> App 2 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 3</title>
+      <link>https://bezirganyan.github.io/itemized/item3/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bezirganyan.github.io/itemized/item3/</guid>
+      <description> App 3 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 4</title>
+      <link>https://bezirganyan.github.io/itemized/item4/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bezirganyan.github.io/itemized/item4/</guid>
+      <description> App 4 </description>
     </item>
     
   </channel>
